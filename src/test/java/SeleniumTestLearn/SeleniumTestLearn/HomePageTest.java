@@ -15,7 +15,7 @@ public class HomePageTest {
 	
 	@BeforeTest
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\LENOVO\\git\\SeleniumLearn\\drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
