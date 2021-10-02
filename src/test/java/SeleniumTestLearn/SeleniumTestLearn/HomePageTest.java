@@ -20,6 +20,7 @@ public class HomePageTest {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://demoqa.com");
+		System.out.println("test");
 	}
 		
 	@Test
